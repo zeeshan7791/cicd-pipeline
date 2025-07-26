@@ -1,9 +1,9 @@
 {
-  "name": "app",
+  "name": "github-actions",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "dev": "node index.js",
     "test": "jest"
   },
   "keywords": [],
@@ -14,7 +14,7 @@
     "express": "^5.1.0"
   },
   "devDependencies": {
-    "jest": "^30.0.5",
-    "supertest": "^7.1.4"
+    "jest": "^30.0.0",
+    "supertest": "^7.1.1"
   }
 }
